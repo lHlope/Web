@@ -1,0 +1,206 @@
+﻿body {
+    font-family: Cambria, Georgia, "Times New Roman";
+    margin: 0;
+    background-image: url(/fon1.jpg);
+}
+
+div#header div.title, div.item h3, div.item h4, div.pager a {
+    font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
+}
+
+div#header {
+    background-color: #2992ff;
+    border-bottom: 2px solid #111;
+    color: white;
+}
+
+    div#header div.title {
+        font-size: 2em;
+        padding: .6em;
+        text-shadow: 1px 2px 20px black;
+    }
+
+div#content {
+    border-left: 2px solid black;
+    margin-left: 9em;
+    padding: 1em;
+}
+
+div#categories {
+    float: left;
+    width: 8em;
+    padding: .3em;
+}
+
+div.item {
+    border-top: 1px solid black;
+    padding-top: .7em;
+    margin-bottom: .7em;
+}
+
+    div.item:first-child {
+        border-top: none;
+        padding-top: 0;
+    }
+
+    div.item h3 {
+        font-size: 1.3em;
+        margin: 0 0 .25em 0;
+    }
+
+    div.item h4 {
+        font-size: 1.1em;
+        margin: .4em 0 0 0;
+    }
+
+div.pager {
+    text-align: center;
+    border-top: 2px solid black;
+    padding: .5em 0 0 0;
+    margin-top: 1em;
+}
+
+    div.pager a {
+        font-size: 1.3em;
+        color: #000;
+        text-decoration: none;
+        padding: 0 .4em 0 .4em;
+    }
+
+        div.pager a:hover {
+            background-color: #2992ff;
+        }
+
+        div.pager a.selected {
+            background-color: #2992ff;
+            color: white;
+        }
+
+div#categories a {
+    font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial;
+    display: block;
+    text-decoration: none;
+    padding: .6em;
+    color: Black;
+    border-bottom: 1px solid black;
+}
+
+    div#categories a.selected {
+        background-color: #2992ff;
+        color: White;
+    }
+
+    div#categories a:hover {
+        background-color: #2992ff;
+    }
+
+    div#categories a.selected:hover {
+        background-color: #2992ff;
+    }
+
+div.item button {
+    color: White;
+    background-color: #2992ff;
+    border: 1px solid black;
+    float: right;
+    border-radius: 10px;
+}
+    div.item button:hover {
+        cursor: pointer;
+        background-color: #007dff;
+    }
+
+
+h2 {
+    margin-top: 0.3em
+}
+
+#cartTable {
+    width: 100%;
+}
+
+    #cartTable tfoot td {
+        border-top: 1px solid black;
+        font-weight: bold;
+    }
+
+    #cartTable thead th {
+        text-align: left;
+    }
+
+        #cartTable thead th:first-child {
+            text-align: center;
+        }
+
+        #cartTable thead th:nth-child(2) {
+            text-align: left;
+        }
+
+cartTable tbody td {
+    text-align: left;
+}
+
+#cartTable tbody td:first-child {
+    text-align: center;
+}
+
+#cartTable tbody td:nth-child(2) {
+    text-align: left;
+}
+
+#cartTable tfoot tr td {
+    text-align: left;
+}
+
+p.actionButtons {
+    text-align: center;
+}
+
+.actionButtons a, button.actionButtons {
+    font: .8em Arial;
+    color: White;
+    margin: .5em;
+    text-decoration: none;
+    padding: .15em 1.5em .2em 1.5em;
+    background-color: #2992ff;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div#cartSummary {
+    float: right;
+    margin: .8em;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    background-color: #ffffff;
+    padding: .5em .5em .5em 1em;
+}
+
+    div#cartSummary a {
+        text-decoration: none;
+        padding: .4em 1em .4em 1em;
+        line-height: 2.1em;
+        margin-left: .5em;
+        background-color: #2992ff;
+        color: White;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+
+.checkout label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+.checkout div input {
+    width: 200px;
+    margin: 10px;
+}
+
+#errors {
+    color: red;
+}
